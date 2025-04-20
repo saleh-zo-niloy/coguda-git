@@ -1,0 +1,63 @@
+{
+  "name": "demo-ui-erangx",
+  "version": "0.0.1",
+  "main": "dist/demo-ui-erangx/fesm2022/demo-ui-erangx.mjs",
+  "module": "dist/demo-ui-erangx/fesm2022/demo-ui-erangx.mjs",
+  "typings": "dist/demo-ui-erangx/index.d.ts",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve demo-ui-erangx",
+    "build": "ng build demo-ui-erangx",
+    "watch": "ng build demo-ui-erangx --watch --configuration development",
+    "test": "ng test demo-ui-erangx",
+    "prepare": "echo Building project && npm run lib:build",
+    "lint": "ng lint",
+    "format": "prettier --write \"**/*.{ts,html,scss,css,md,json}\"",
+    "check-format": "prettier --check \"**/*.{ts,html,scss,css,md,json}\"",
+    "lib:watch": "ng build demo-ui-erangx --watch --configuration development",
+    "lib:build": "npx tailwindcss -c ./projects/demo-ui-erangx/tailwind.config.js -o ./projects/demo-ui-erangx/src/lib/styles/tailwind.generated.css && ng build demo-ui-erangx"
+  },
+  "private": false,
+  "dependencies": {
+    "@angular/animations": "^18.2.0",
+    "@angular/common": "^18.2.0",
+    "@angular/compiler": "^18.2.0",
+    "@angular/core": "^18.2.0",
+    "@angular/forms": "^18.2.0",
+    "@angular/platform-browser": "^18.2.0",
+    "@angular/platform-browser-dynamic": "^18.2.0",
+    "@angular/router": "^18.2.0",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.14.10"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^18.2.18",
+    "@angular/cli": "^18.2.10",
+    "@angular/compiler-cli": "^18.2.0",
+    "@types/jasmine": "~5.1.0",
+    "angular-eslint": "19.3.0",
+    "autoprefixer": "^10.4.21",
+    "cypress": "^14.3.0",
+    "eslint": "^9.23.0",
+    "eslint-config-prettier": "^10.1.2",
+    "eslint-plugin-prettier": "^5.2.6",
+    "husky": "^9.1.7",
+    "jasmine-core": "~5.2.0",
+    "karma": "~6.4.0",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.1.0",
+    "ng-packagr": "^18.2.0",
+    "postcss": "^8.5.3",
+    "prettier": "^3.5.3",
+    "tailwindcss": "^3.4.17",
+    "typescript": "~5.5.2",
+    "typescript-eslint": "8.27.0"
+  },
+  "peerDependencies": {
+    "@angular/core": "^18.2.0",
+    "@angular/common": "^18.2.0"
+  }
+}

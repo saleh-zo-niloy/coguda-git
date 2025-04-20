@@ -1,0 +1,19 @@
+{
+  "name": "demo-ui-erangx",
+  "version": "0.0.8",
+  "main": "dist/demo-ui-erangx/fesm2022/demo-ui-erangx.mjs",
+  "module": "dist/demo-ui-erangx/fesm2022/demo-ui-erangx.mjs",
+  "typings": "dist/demo-ui-erangx/index.d.ts",
+  "scripts": {
+    "prepare": "echo Building library && npx ng build demo-ui-erangx"
+  },
+  "peerDependencies": {
+    "@angular/common": "^18.2.0",
+    "@angular/core": "^18.2.0"
+  },
+  "devDependencies": {
+    "@angular/cli": "^18.2.10",
+    "ng-packagr": "^18.2.0",
+    "typescript": "~5.5.2"
+  }
+}
