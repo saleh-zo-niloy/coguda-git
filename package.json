@@ -10,7 +10,7 @@
     "build": "ng build demo-ui-erangx",
     "watch": "ng build demo-ui-erangx --watch --configuration development",
     "test": "ng test demo-ui-erangx",
-    "prepare": "echo Building project && npm run lib:build",
+    "prepare": "echo Building project && npm run lib:build && husky",
     "lint": "ng lint",
     "format": "prettier --write \"**/*.{ts,html,scss,css,md,json}\"",
     "check-format": "prettier --check \"**/*.{ts,html,scss,css,md,json}\"",
