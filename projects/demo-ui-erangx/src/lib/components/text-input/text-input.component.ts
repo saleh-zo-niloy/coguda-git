@@ -8,7 +8,7 @@ import { Component, Input } from '@angular/core';
   styleUrl: '../../style.scss',
 })
 export class TextInputComponent {
-  @Input() label = '';
+  @Input() labe = '';
 
   inputValue = '';
 
